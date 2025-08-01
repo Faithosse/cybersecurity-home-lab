@@ -90,9 +90,9 @@ root
 
 * Nmap scan result: ![Nmap_Scan](nmap_scan_result.png)
 * Metasploit output and Netcat shell with 'root' : ![metasploit_output](exploit_result.png)
-* attacker network setup: ![attacker_net](attacker-network-set.png)
-* kali ping target : ![kali-ping](kali-ping-target.png)
-* metasploitable network setup: ![metasploit_net](mata-network-set.png)
+* attacker network setup: ![attacker_net](attack-network-set.png)
+* kali ping target : ![kali-ping](kali_ping_target.png)
+* metasploitable network setup: ![metasploit_net](meta-network-set.png)
 
 ---
 
