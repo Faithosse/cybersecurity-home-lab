@@ -88,9 +88,11 @@ root
 
 ### 📸 Screenshots
 
-* Nmap scan result
-* Metasploit output
-* Netcat shell with `root`
+* Nmap scan result: ![Nmap_Scan](nmap_scan_result.png)
+* Metasploit output and Netcat shell with 'root' : ![metasploit_output](exploit_result.png)
+* attacker network setup: ![attacker_net](attacker-network-set.png)
+* kali ping target : ![kali-ping](kali-ping-target.png)
+* metasploitable network setup: ![metasploit_net](mata-network-set.png)
 
 ---
 
@@ -125,7 +127,7 @@ PORT   STATE SERVICE VERSION
 ## Results
 
 * Shell access: Yes (via port 6200)
-* Screenshot: ![](../screenshots/lab1/success_root_shell.png)
+* Screenshot: ![metasploit_output](exploit_result.png)
 
 ## Lessons Learned
 
