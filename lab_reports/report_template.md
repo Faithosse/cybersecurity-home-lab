@@ -79,11 +79,12 @@ root
 
 ###  Screenshots
 
-* Nmap scan result: ![Nmap_Scan](screenshot/nmap_scan_result.png)
-* Metasploit output and Netcat shell with 'root' : ![metasploit_output](screenshot/exploit_result.png)
-* attacker network setup: ![attacker_net](screenshot/attack-network-set.png)
-* kali ping target : ![kali-ping](screenshot/kali_ping_target.png)
-* metasploitable network setup: ![metasploit_net](screenshot/meta-network-set.png)
+* Nmap scan result: ![Nmap_Scan](lab_reports/screenshot/nmap_scan_result.png)
+* Metasploit output and Netcat shell with 'root' : ![metasploit_output](lab_reports/screenshot/exploit_result.png)
+* attacker network setup: ![attacker_net](lab_reports/screenshot/attack-network-set.png)
+* kali ping target : ![kali-ping](lab_reports/screenshot/kali_ping_target.png)
+* metasploitable network setup: ![metasploit_net](lab_reports/screenshot/meta-network-set.png)
+
 
 ## Target Information
 
