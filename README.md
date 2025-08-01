@@ -20,4 +20,4 @@ Welcome to my Cybersecurity Home Lab! This project provides a hands-on environme
   - Performed service enumeration with Nmap.
   - Identified vulnerable vsftpd 2.3.4 service on port 21.
   - Used Metasploit and netcat to exploit the backdoor and gain root shell access.
-  - [Lab Report](./lab_reports/report_template.md)
+  - [Lab Report for more details and commandline used](./lab_reports/report_template.md)
