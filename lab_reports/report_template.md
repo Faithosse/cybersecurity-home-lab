@@ -78,14 +78,11 @@ root
 * Metasploit failed to open session but backdoor was live on port 6200.
 
 ###  Screenshots
-
-* Nmap scan result:(![Nmap_Scan](screenshots/nmap_scan_result.png))
-* Metasploit output and Netcat shell with 'root':(![metasploit_output](screenshots/exploit_result.png))
-* attacker network setup:(![attacker_net](screenshots/attack-network-set.png))
-* kali ping target :(![kali-ping](screenshots/kali_ping_target.png))
-* metasploitable network setup:(![metasploit_net](screenshots/meta-network-set.png))
-
-
+* Nmap scan result: ![Nmap_Scan](../screenshots/nmap_scan_result.png)
+* Metasploit output and Netcat shell with 'root': ![metasploit_output](../screenshots/exploit_result.png)
+* Attacker network setup: ![attacker_net](../screenshots/attack-network-set.png)
+* Kali ping target: ![kali-ping](../screenshots/kali_ping_target.png)
+* Metasploitable network setup: ![metasploit_net](../screenshots/meta-network-set.png)
 
 
 ## Target Information
