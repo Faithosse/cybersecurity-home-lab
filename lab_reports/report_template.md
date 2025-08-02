@@ -86,7 +86,7 @@ root
 * Successfully accessed root shell manually after exploit.
 * Metasploit failed to open session but backdoor was live on port 6200.
 
-<<<<<<< HEAD
+
 ### 📸 Screenshots
 
 * Nmap scan result:(![Nmap_Scan](nmap_scan_result.png))
