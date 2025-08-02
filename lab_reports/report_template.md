@@ -89,11 +89,13 @@ root
 <<<<<<< HEAD
 ### 📸 Screenshots
 
-* Nmap scan result:(![Nmap_Scan](../screenshots/nmap_scan_result.png))
+* Nmap scan result:(![Nmap_Scan](nmap_scan_result.png))
 * Metasploit output and Netcat shell with 'root':(![metasploit_output](../screenshots/exploit_result.png))
 * attacker network setup:(![attacker_net](../screenshots/attack-network-set.png))
 * kali ping target :(![kali-ping](../screenshots/kali_ping_target.png))
 * metasploitable network setup:(![metasploit_net](../screenshots/meta-network-set.png))
+* metasploitable network setup:(![metasploit_net](../screenshots/meta-network-set.png))
+
 
 ---
 
